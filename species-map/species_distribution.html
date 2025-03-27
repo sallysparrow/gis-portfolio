@@ -20,33 +20,10 @@
 
     <script>
       function initMap() {
-        const customStyle = [
-          {
-            "featureType": "water",
-            "elementType": "geometry",
-            "stylers": [{"color": "#a2daf2"}]
-          },
-          {
-            "featureType": "landscape",
-            "elementType": "geometry",
-            "stylers": [{"color": "#abce83"}]
-          },
-          {
-            "featureType": "road",
-            "elementType": "geometry",
-            "stylers": [{"lightness": 100}, {"visibility": "simplified"}]
-          },
-          {
-            "featureType": "road",
-            "elementType": "labels",
-            "stylers": [{"visibility": "off"}]
-          }
-        ]; // ← Replace or expand with full style JSON
-
         const map = new google.maps.Map(document.getElementById('map'), {
           center: { lat: 40.4583498, lng: -80.079528 },
           zoom: 12,
-          styles: customStyle
+          mapId: '1118e44a0d2bd300'
         });
 
         const kmlLayer = new google.maps.KmlLayer({
