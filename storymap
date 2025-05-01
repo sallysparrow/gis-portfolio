@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Heat Inequities in Pittsburgh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        h1, h2 {
+            color: #343a40;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        a {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Urban Heat Islands and Housing Value in Pittsburgh</h1>
+
+    <h2>Research Overview</h2>
+    <p>
+        This storymap examines the inequitable burden of urban heat islands, exploring how historically disadvantaged communities, particularly low-income neighborhoods and communities of color, face higher temperatures and lower green space availability. The provided research paper highlights these disparities in detail.
+    </p>
+
+    <h2>Embedded Research Paper</h2>
+    <iframe src="/mnt/data/s41467-021-22799-5.pdf"></iframe>
+
+    <h2>Income and Temperature Correlation</h2>
+    <img src="/mnt/data/7f3fea06-946d-481c-81bf-647beb871fa9.png" alt="Income and Temperature Correlation">
+
+    <h2>Land Surface Temperature (LST) in Pittsburgh</h2>
+    <p>The map below represents the LST distribution derived from Landsat imagery, illustrating hotter areas within Pittsburgh.</p>
+    <iframe src="YOUR_EMBEDDED_LST_MAP_URL"></iframe>
+
+    <h2>Housing Market Value Analysis (MVA)</h2>
+    <p>
+        Explore detailed housing market value information through the interactive map provided below:
+        <br>
+        <a href="YOUR_HOUSING_VALUE_MAP_LINK" target="_blank">View Housing Value Map</a>
+    </p>
+</div>
+</body>
+</html>
