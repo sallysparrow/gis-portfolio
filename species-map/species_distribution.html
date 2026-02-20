@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Species Distribution Map – iNaturalist</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script>
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: 40.4583498, lng: -80.079528 },
+          zoom: 12,
+          mapId: '82c0ceaad87bd3a2'
+        });
+
+        const kmlLayer = new google.maps.KmlLayer({
+          url: 'https://sallysparrow.github.io/gis-portfolio/species-map/species_distribution.kml',
+          map: map
+        });
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA3TPuTBoLg_KuuQ4MaLGkwUEaTXuN9mM&callback=initMap"
+    async defer></script>
+  </body>
+</html>
