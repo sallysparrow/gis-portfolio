@@ -19,15 +19,15 @@ Graduate student specializing in building performance, sustainability analytics,
 
 
 # Portfolio
-• Week 1: GIS Project Management
+• Week 1: GIS Project Management -[GIS RFP Proposal](./GIS%20RFP%20Proposal.pdf)
 
-• Week 2: Web-based cartography and portfolio setup (./species-map/species_distribution.html)
+• Week 2: Web-based cartography and portfolio setup - [Species Distribution Map](./species-map/species_distribution.html)
 
-• Week 3: Spatial Data Analysis: ArcGIS Insights [Google Slides Presentation]([https://docs.google.com/presentation/d/YOUR_SLIDE_ID/view](https://docs.google.com/presentation/d/1H7tJ7cuQPBpNeMhdcmTe-ImnIoaiAfM46VbJJ6-WAxw/edit?usp=sharing))
+• Week 3: Spatial Data Analysis: ArcGIS Insights - [Google Slides Presentation](https://docs.google.com/presentation/d/1H7tJ7cuQPBpNeMhdcmTe-ImnIoaiAfM46VbJJ6-WAxw/edit?slide=id.g347908fad86_0_0#slide=id.g347908fad86_0_0)
 
 • Week 4: Spatial Data Science: Data Engineering & Visualization
 
 • Week 5: Spatial Data Science: Create a prediction model
 
-• Week 6-7: GIS Ethics, final project and portfolio work (./storymap.html)
+• Week 6-7: GIS Ethics, final project and portfolio work - [Story Map](./storymap.html)
 
