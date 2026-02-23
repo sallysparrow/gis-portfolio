@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIS Portfolio | Spatial Data Science</title>
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+
+    header {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 22px 24px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.25rem;
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 8px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    .portfolio-list li {
+      margin-bottom: 12px;
+    }
+
+    .week-label {
+      font-weight: 700;
+    }
+
+    .footer-note {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 4px;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 20px 14px 36px;
+      }
+
+      header,
+      section {
+        padding: 18px 16px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>GIS Portfolio</h1>
+      <p class="subtitle">S25 Spatial Data Science</p>
+    </header>
+
+    <section aria-labelledby="about-me">
+      <h2 id="about-me">About Me</h2>
+      <p>
+        Graduate student specializing in building performance, sustainability analytics,
+        and automation. Skilled in energy modeling, GIS, and computational design to
+        optimize high-performance buildings and climate resilience.
+      </p>
+    </section>
+
+    <section aria-labelledby="learning-goals">
+      <h2 id="learning-goals">What I Hope to Learn</h2>
+      <ul>
+        <li>Apply GIS skills to produce real products and services.</li>
+        <li>Manage and scope GIS projects, work on GIS teams, and deliver GIS resources.</li>
+        <li>
+          Utilize and integrate other GIS technologies (e.g., MapBox and others) to meet
+          real-world needs, affect change, and integrate data into other platforms.
+        </li>
+        <li>
+          Explore the world of Spatial Data Science and gain insights into how to conduct
+          more geospatial analysis.
+        </li>
+        <li>
+          Analyze key geospatial technology challenges and opportunities of the present,
+          near-present, and future through the lens of ethical use, personal privacy,
+          and policy.
+        </li>
+        <li>Develop an online portfolio.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="portfolio">
+      <h2 id="portfolio">Portfolio</h2>
+      <ul class="portfolio-list">
+        <li>
+          <span class="week-label">Week 1: GIS Project Management</span> —
+          <a href="./GIS%20RFP%20Proposal.pdf" target="_blank" rel="noopener">
+            GIS RFP Proposal (PDF)
+          </a>
+        </li>
+
+        <li>
+          <span class="week-label">Week 2: Web-based Cartography and Portfolio Setup</span> —
+          <a href="./species-map/species_distribution.html">
+            Species Distribution Map
+          </a>
+        </li>
+
+        <li>
+          <span class="week-label">Week 3: Spatial Data Analysis: ArcGIS Insights</span> —
+          <a
+            href="https://docs.google.com/presentation/d/1H7tJ7cuQPBpNeMhdcmTe-ImnIoaiAfM46VbJJ6-WAxw/edit?slide=id.g347908fad86_0_0#slide=id.g347908fad86_0_0"
+            target="_blank"
+            rel="noopener"
+          >
+            Google Slides Presentation
+          </a>
+        </li>
+
+        <li>
+          <span class="week-label">Week 4: Spatial Data Science: Data Engineering &amp; Visualization</span>
+        </li>
+
+        <li>
+          <span class="week-label">Week 5: Spatial Data Science: Create a Prediction Model</span>
+        </li>
+
+        <li>
+          <span class="week-label">Week 6–7: GIS Ethics, Final Project and Portfolio Work</span> —
+          <a href="./storymap.html">Story Map</a>
+        </li>
+      </ul>
+      <p class="footer-note">
+        More project links and deliverables will be added as the course progresses.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
